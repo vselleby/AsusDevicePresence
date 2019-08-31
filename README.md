@@ -7,3 +7,5 @@ This project has been created as a means to monitor devices connected to WLAN wi
 ## How to make it work
 
 For this to work SSH has to be enabled and a public RSA key has to be added to Authorized Keys. This can be done from the settings found under Administration->System. See [UsageExample](https://github.com/vselleby/AsusDevicePresence/blob/master/src/main/java/UsageExample.java)
+
+For a more full scale project using a variant of AsusDevicePresence implemented in Kotlin. See [WhoIsHome](https://github.com/vselleby/WhoIsHome), it is currently a work in progress but most of the key elements related to device presence has been implemented.
