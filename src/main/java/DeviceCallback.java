@@ -1,6 +1,6 @@
-import java.util.List;
+import java.util.Set;
 
 @FunctionalInterface
 public interface DeviceCallback {
-    void callback(List<ConnectedDevice> connectedDevices);
+    void callback(Set<ConnectedDevice> connectedDevices);
 }
